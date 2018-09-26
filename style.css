@@ -1,9 +1,12 @@
 p {
 	color: black;
 	font: 12pt courier;
+	margin-left: 240pt;
 }
 	
 h1 {
 	font: 40pt impact;
+	text-align: left;
+	margin-left: 240pt;
 }
 
