@@ -1,13 +1,14 @@
 p {
 	color: black;
-	font: 12pt courier;
+	font-family: "Courier New", courier, monospace;
 	width: 33%;
 	margin-left: auto;
 	margin-right: auto;
 }
 	
 h1 {
-	font: 40pt impact;
+	font-family: Impact, sans-serif;
+	font-size: 40pt;
 	text-align: center;
 	width: 33%;
 	margin-left: auto;
