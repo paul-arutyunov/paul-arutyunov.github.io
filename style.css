@@ -14,6 +14,18 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@keyframes slide {
+	from {margin-left: 0%; font-size: 1pt; transform: rotate(360deg)}
+	to {margin-left: 33%; font-size: 40pt; transform: rotate(0deg)}
+}
+
+#slide {
+	animation-name: slide;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
 img {
 	display: block;
 	width: 33%;
